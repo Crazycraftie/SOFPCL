@@ -19,42 +19,61 @@ Welcome to the official website repository of **Sustainable Organic Farming Prod
 
 This website was built using:
 
-- **HTML5** – For structuring content
-- **CSS3** – For styling and layout
+- **HTML5** – For structuring content  
+- **CSS3** – For styling and layout  
 - **JavaScript** – For interactivity and dynamic behavior
 
-> _This is a static frontend project. If backend or hosting is added later (e.g., PHP, Node.js, Firebase), update this section._
 
----
 
 ## 📁 Folder Structure
 
+```
+SOFPCL/
+├── index.html           # Homepage
+├── about.html           # About the NGO
+├── projects.html        # Current initiatives (e.g. solar, jaggery)
+├── contact.html         # Contact form and NGO details
+├── assets/
+│   ├── css/             # Stylesheets
+│   ├── js/              # JavaScript files
+│   └── images/          # Logos, banners, visuals
+└── README.md            # Project readme (this file)
+```
 
 ---
 
 ## 🚀 Key Features
 
-- 🧑‍🌾 Informative sections about SOFPCL’s mission & story
-- ☀️ Dedicated section on **solar power and sustainability**
-- 🧃 Highlighting **traditional jaggery production**
-- 💬 Contact form for collaboration and queries
-- 📱 Responsive layout (if implemented)
+- 🧑‍🌾 Informative sections about SOFPCL’s mission & story  
+- ☀️ Dedicated section on **solar power and sustainability**  
+- 🧃 Highlighting **traditional jaggery production**  
+- 💬 Contact form for collaboration and queries  
+- 📱 Responsive layout _(if implemented)_
+
 
 ---
 
-## 📸 Screenshots (optional)
 
-> _You can include screenshots of your homepage, projects section, and contact page once the site is visually ready._
+## 🧑‍💻 Author
 
-Example:
-
-![Homepage Preview](assets/images/homepage.png)
+**Dhirendra**  
+B.Tech, Electrical and Electronics Engineering, IIT Patna  
+📌 Passionate about sustainable development and real-world tech
 
 ---
 
-## 🔗 Live Demo
+## 🤝 Contributing
 
-> _Add your deployment link here when hosted (e.g., GitHub Pages, Vercel, Netlify)._
+Contributions, suggestions, and ideas are welcome!  
+Feel free to open an issue or submit a pull request to improve the project.
 
-```text
-https://yourdomain.github.io/SOFPCL/
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute with attribution.
+
+
+
+_Thank you for supporting sustainable farming and rural innovation!_ 🌾
