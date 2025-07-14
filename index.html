@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Organic Farming Producer Company Limited</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+
+ <!--Navbar-->
+
+<nav class="navbar">
+
+    <div class="container">
+
+        <div class="logo">
+            <a href="index.html" >
+                <img src="img/logo.png" alt="logo" class="navbar-logo">
+            </a>
+        </div>
+
+        <div class="main-menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Documents</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                <a class="btn btn-light" href="#">D<i class="fa-solid fa-circle-dollar-to-slot"></i>NATE</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-heading text-xxl">
+            “Empowering Farmers. Sustaining Nature.”
+        </h1>
+        <p class="hero-text text-sm">
+            Promoting renewable energy & organic farming for a greener future.
+        </p>
+        <div class="hero-button">
+            <a href="#" class="btn btn-primary"><i class="fa-solid fa-hand-holding-heart"></i>Donate</a>
+            <a href="#contact" class="btn"><i class="fa-solid fa-message"></i>Contact Us</a>
+
+        </div>
+    </div>
+</section>
+
+<!-- Project 1 -->
+<section class="project-one">
+    <div class="container">
+        <div class="solar">
+            <img src="img/solar.jpg" alt="Solar Panels for Farming" class="project-one-solar">
+        </div>
+        <div class="project-one-content">
+            <h1 class="project-one-heading text-xxl">
+                Harnessing Solar Energy for Sustainable Farming
+            </h1>
+            <p class="project-one-text text-sm">
+                We empower farmers by integrating solar energy solutions into agriculture. By using solar-powered irrigation systems and renewable energy, we reduce dependence on fossil fuels, lower costs, and promote eco-friendly farming practices.
+            </p>
+            <div class="project-one-button">
+                <a href="#" class="btn">Support Solar-Powered Farming</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Project 2-->
+
+<section class="project-two">
+    <div class="container">
+        <div class="organic">
+            <img src="img/organic farm.jpg" alt="Organic Farming" class="project-two-organic">
+        </div>
+        <div class="project-two-content">
+            <h1 class="project-two-heading text-xxl">
+                Growing a Healthier Future with Organic Farming
+            </h1>
+            <p class="project-two-text text-sm">
+                We promote chemical-free, sustainable farming that nurtures the soil, protects biodiversity, and improves farmers' livelihoods. By adopting organic techniques, we ensure healthier food production while preserving the environment for future generations.
+            </p>
+            <div class="project-two-button">
+                <a href="#" class="btn">Support Sustainable Farming</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Project 3-->
+
+<section class="project-three">
+    <div class="container">
+        <div class="empower">
+            <img src="img/tim-mossholder-xDwEa2kaeJA-unsplash.jpg" alt="empower" class="project-three-empower">
+        </div>
+        <div class="project-three-content">
+            <h1 class="project-three-heading text-xxl">
+                Empowering Communities, Enriching Lives
+            </h1>
+            <p class="project-three-text text-sm">
+                We uplift local farmers and rural communities through education, resources, and collective partnerships. By providing training programs, financial support, and market access, we help farmers become self-reliant and improve their quality of life.
+            </p>
+            <div class="project-three-button">
+                <a href="#" class="btn">Support Community Growth</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+
+    <div class="contact-content">
+        <h2 class="contact-heading"> Stay Connected for a Greener Future</h2>
+        <p class="contact-text">
+            Join us in transforming agriculture with sustainable practices. Stay updated on our initiatives, success stories, and ways you can contribute!
+        </p>
+    </div>
+
+    <div class="contact-form">
+        <h3>Contact Form</h3>
+        <form id="contact-form">
+            <label for="user_email">Email</label>
+            <input type="email" id="user_email" name="user_email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn btn-submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<!-- Include EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="contact.js"></script>
+
+
+
+<!--Footer Section-->
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="img/logo.png" alt="Logo" class="footer-logo">
+            <p>Contact Us</p>
+            <p>Sustainable Organic Farming Producer Company Limited</p>
+            <p>Khorabar, Gorakhpur, Uttar Pradesh, India - 273010</p>
+            <p>Phone: [+91 XXXXXX XXXXX]</p>
+            <p>📧 Email: <a href="mailto:info@yourngo.org">info@yourngo.org</a></p>
+        </div>
+
+        <div class="footer-right">
+            <p>Follow Us on Social Media</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="year"></span> Sustainable Organic Farming Producer Company Limited. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+<!-- Botpress WebChat Scripts -->
+<script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/03/23/19/20250323194400-2MB3RBIJ.js"></script>
+
+<!-- Link to external script.js -->
+<script src="script.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+
+
+<script src="script.js"></script>  
+</body>
+</html>

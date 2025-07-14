@@ -1,0 +1,683 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#4891ff;
+    --light-color:#f4f4f6;
+    --dark-color:#111;
+
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+
+}
+img{
+    max-width: 100%;
+}
+
+/* Nav-bar */
+.navbar {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 0px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul{
+    display: flex;
+}
+
+.navbar ul li a{
+    padding: 5px 20px;
+    display: block;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    color: var(--primary-color);
+}
+.navbar-logo {
+    width: 80px; 
+    height: 80px; 
+    max-height: 80px; 
+   
+    
+}
+.navbar ul li:last-child a{
+    margin-left: 10px;
+    color: #1c1c1c;
+
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 600px;
+    background: url("img/hero.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(200, 225, 195);
+    padding: 0 20px;
+}
+
+/* Hero Content */
+.hero-content {
+    max-width: 800px;
+}
+
+/* Hero Text */
+.hero-text {
+    margin-bottom: 20px;
+}
+
+/* Hero Buttons */
+.hero-button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.hero-button a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+
+/*                   PROJECT 1            */
+.project-one {
+    background-color: #1c1c1c; /* Dark background */
+    padding: 50px 0;
+}
+
+/* Container */
+.project-one .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Space between image and text */
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Solar Image */
+.solar {
+    flex: 1;
+    max-width: 50%;
+}
+
+.project-one-solar {
+    width: 100%;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Content Section */
+.project-one-content {
+    flex: 1;
+    max-width: 50%;
+    color: white;
+}
+
+.project-one-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.project-one-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.project-one-button .btn {
+    display: inline-flex; 
+    background-color: #f4f4f4;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    gap: 10px; 
+    white-space: nowrap; 
+    margin-top: 20px; 
+}
+
+.project-one-button .btn:hover {
+    background-color: #e0e0e0;
+}
+
+
+/*                   PROJECT 2           */
+
+/* Project One Section */
+.project-two {
+    background-color: #1c1c1c; /* Dark background */
+    padding: 50px 0;
+}
+
+/* Container */
+.project-two .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Space between image and text */
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Solar Image */
+.organic {
+    flex: 1;
+    max-width: 50%;
+}
+
+.project-two-organic {
+    width: 100%;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Content Section */
+.project-two-content {
+    flex: 1;
+    max-width: 50%;
+    color: white;
+}
+
+.project-two-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.project-two-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.project-two-button .btn {
+    display: inline-flex;
+    background-color: #f4f4f4;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    white-space: nowrap; 
+    margin-top: 20px; 
+}
+
+.project-two-button .btn:hover {
+    background-color: #e0e0e0;
+}
+
+
+/*                   PROJECT 3            */
+
+/* Project One Section */
+.project-three {
+    background-color: #1c1c1c; /* Dark background */
+    padding: 50px 0;
+}
+
+/* Container */
+.project-three .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Space between image and text */
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Solar Image */
+.empower {
+    flex: 1;
+    max-width: 50%;
+}
+
+.project-three-empower {
+    width: 100%;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Content Section */
+.project-three-content {
+    flex: 1;
+    max-width: 50%;
+    color: white;
+}
+
+.project-three-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.project-three-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.project-three-button .btn {
+    display: inline-flex;
+    background-color: #f4f4f4;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    white-space: nowrap; 
+    margin-top: 20px; 
+}
+
+.project-three-button .btn:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+/*              CONTACT FORM            */
+
+/* Contact Section */
+.contact {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px 10%;
+    color: white;
+    overflow: hidden; /* Prevents unwanted scrolling */
+    
+}
+
+/* Adding Blurred Background */
+.contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("img/solar\ for\ hero.jpg") no-repeat center center/cover;
+    filter: blur(3px); /* Adjust blur intensity */
+    z-index: -1; /* Puts it behind the text */
+}
+
+/* Keeps the text and form above the blur */
+.contact-content, 
+.contact-form {
+    position: relative;
+    z-index: 1;
+}
+
+/* Contact Text */
+.contact-content {
+    max-width: 500px;
+}
+
+.contact-heading {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 0%);
+}
+
+.contact-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Contact Form */
+.contact-form {
+    background: #003200;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.contact-form h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: #003200;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-submit:hover {
+    background: #f5f5f5;
+}
+
+/*        FOOTER          */
+
+/* Footer Section */
+.footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.footer-left {
+    text-align: center;
+    max-width: 400px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 0px;
+}
+
+.footer-right {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #f4f4f4;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/*******************************************  ABOUT US ************************************/
+
+/* Container */
+
+.know-about-us {
+    background-color: #ffffff; /* Dark background */
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.know-about-us .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Space between image and text */
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.know-about-us .heading{
+    margin-left: 50px;
+    margin-top: 2%;
+}
+
+.hero-image-about-us img {
+    display: block;
+    margin: auto;
+    width: 1280px;  /* Set desired width */
+    height: 448px; /* Set desired height */
+    margin-top: 20px;
+  }
+  
+
+.heading {
+    flex: 1;
+    max-width: 50%;
+    color: rgb(2, 2, 2);
+}
+.paragraph {
+    flex: 1;
+    max-width: 50%;
+    color: rgb(2, 2, 2);
+}
+
+/************** MISSION & VISION SECTION **************/
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 80px 10%;
+   
+}
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Ensures left alignment */
+}
+
+
+/* Individual containers for Vision & Mission */
+.container-mission {
+    flex: 1;
+    text-align: left;  /* Ensure the entire block aligns left */
+    display: flex;
+    flex-direction: column; /* Stacks elements properly */
+    align-items: flex-start; /* Forces children (h2, tagline, p) to align left */
+}
+
+/* Heading styles */
+.mission-vision h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Subheading (tagline) now directly under h2 */
+.tagline {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5px;  /* Adjusts spacing between heading & tagline */
+    margin-bottom: 15px;
+}
+
+/* Paragraph text */
+.mission-vision p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility Class */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-sm{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Buttons */
+.btn{
+    display:inline-block;
+    padding: 13px 20px;
+    background: var(--light-color);
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-primary{
+    background:var(--primary-color) ;
+    color:#fff
+}
+.btn-dark{
+    background-color: var(--dark-color);
+    color:#fff
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+/* Text Classes*/
+
+.text-xxl{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+    
+}
+.text-xl{
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+.text-lg{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+.text-md{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+.text-sm{
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+   
+}
+.text-center{
+    text-align:center ;
+}
